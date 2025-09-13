@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+python-multipart
+#--- Các thư viện AI (ban đầu có thể comment lại để deploy nhanh hơn) ---
+opencv-python-headless
+#Lưu ý: dùng -headless cho môi trường server không có giao diện đồ họa
+vietocr
+deepface
+#torch và torchvision sẽ được vietocr tự động cài, nhưng khai báo rõ ràng sẽ tốt hơn
+torch
+torchvision
+#tensorflow sẽ được deepface tự động cài
+tensorflow
